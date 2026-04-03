@@ -13,4 +13,4 @@ This project is a personal portfolio website hosted on AWS EC2 using Nginx.
 - Real-world deployment
 
 ## Live Demo
-http://your-public-ip
+http://13.232.170.132
