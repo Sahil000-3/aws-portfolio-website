@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahil | Cloud Engineer</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+
+/* Glow background */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+}
+.c1 { width: 300px; height: 300px; background: #00f5ff; top: 10%; left: 10%; }
+.c2 { width: 250px; height: 250px; background: #ff00c8; bottom: 10%; right: 10%; }
+
+.container {
+    position: relative;
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+/* Glass Card */
+.card {
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #aaa;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+/* Hero */
+.hero {
+    margin-top: 60px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero span {
+    background: linear-gradient(45deg, #00f5ff, #ff00c8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    color: #cbd5e1;
+    max-width: 600px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.primary {
+    background: linear-gradient(45deg, #00f5ff, #ff00c8);
+    color: black;
+}
+
+.secondary {
+    border: 1px solid #aaa;
+    color: white;
+}
+
+/* Skills Grid */
+.skills {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.1);
+}
+
+.skill-box h3 {
+    color: #00f5ff;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+
+<div class="container">
+
+<div class="card">
+
+<div class="header">
+    <div class="logo">⚡ Sahil</div>
+    <div class="nav">
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+<div class="hero">
+    <h1>Hi, I'm <span>Sahil</span></h1>
+    <p>
+        Cloud & DevOps Engineer focused on building scalable infrastructure,
+        automating deployments, and managing production systems on AWS.
+    </p>
+
+    <a href="#" class="btn primary">View Work</a>
+    <a href="#" class="btn secondary">Contact</a>
+</div>
+
+<div class="skills">
+
+    <div class="skill-box">
+        <h3>☁ Cloud</h3>
+        <p>AWS (EC2, VPC, IAM, S3, RDS, Route 53, ALB, Auto Scaling, CloudWatch)</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>⚙ Infrastructure & Scripting</h3>
+        <p>Terraform, Bash Scripting</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>🚀 Containers & CI/CD</h3>
+        <p>Docker, Jenkins, Git, GitHub</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>📊 Monitoring</h3>
+        <p>CloudWatch, Prometheus, Grafana, Log Analysis, Alerting, SLI/SLO</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>💻 Operating Systems</h3>
+        <p>Linux (RHEL, CentOS, Ubuntu), Windows Server</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>🌐 Networking</h3>
+        <p>TCP/IP, DNS, DHCP, VPN, Firewalls, SSL/TLS</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>🛠 ITSM</h3>
+        <p>ServiceNow, Incident Management, Change Management, Root Cause Analysis</p>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 Sahil Mohankudo | Cloud • DevOps • Infrastructure 🚀
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
